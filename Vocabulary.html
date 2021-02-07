@@ -1,0 +1,48 @@
+﻿<DOCTYPE html>
+    <html>
+    <head>
+
+        <title>Vocab</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=dvice-width, initial-scale=1" />
+        <noscript>This content is only available if you are using JavaScript!</noscript>
+        <link rel="stylesheet" href="Vocabularysheet.css"/>
+
+        <script>
+            function addVocab() {
+                var vocablist = [];
+                /* Loading the Web Storage if possible */
+
+                /* Getting the Input */
+                var vocab = document.getElementById("vocabinput").value;
+
+                /* Adding new Vocabulary */
+                if (vocab != null && vocab != " " && vocab != "") {
+                    document.getElementById("vocabinput").value = "";
+                    var ul = document.getElementById("list");
+                    var li = document.createElement("li");
+                    li.appendChild(document.createTextNode(vocab));
+                    ul.appendChild(li);
+                    alert("Du hast das Wort " + vocab + " zu der Vokabelliste hinzugefügt!");
+                   
+                }
+                }
+            
+
+        </script>
+    </head>
+
+    <body style="background-image: url(Images/hill.jpg)">
+        <nav id="nav">
+            <p id="navheader" class="nav_cont"> <a href="index.html">My Test Site</a></p>
+        </nav>
+        <h1>Vocabulary</h1>
+
+        <input type="text" id="vocabinput" placeholder="Vocabulary" />
+        <button onclick="addVocab()">Submit</button>
+        <h2>The Vocabulary List</h2>
+
+
+        <ul id="list"></ul>
+    </body>
+</html>

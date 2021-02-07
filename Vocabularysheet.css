@@ -1,0 +1,40 @@
+#nav {
+    list-style-type: none;
+    align-content: safe center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    height: 52px;
+}
+
+.nav_cont {
+    float: left;
+}
+
+    .nav_cont a {
+        display: block;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+    }
+
+
+        .nav_cont a:hover {
+        }
+
+#navheader {
+    color: cornflowerblue;
+    font-size: 35;
+    margin-top: 4.5;
+    margin-bottom: 4.5;
+    margin-left: 45%;
+}
+
+h1 {
+    color: snow;
+    font-size: 28;
+    text-align: center;
+}
+h2{color: snow;}
+li{color: snow; font-size: 18px;}

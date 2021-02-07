@@ -1,0 +1,108 @@
+﻿<DOCTYPE html>
+<html>
+<head>
+    
+    <title>Test Home Site</title>
+    <meta charset="utf-8" />
+    <meta  name="viewport" content="width=dvice-width, initial-scale=1"/>
+    <noscript>This content is only available if you are using JavaScript!</noscript>
+    <link rel="stylesheet" href="IndexSheet.css"/>
+
+    <script>
+        function GoToProject() {
+            var str = document.getElementById("searchinput").value;
+
+            if (document.getElementById(str) != null) {
+                document.location = 'index.html#' + str;
+                alert("You jumped to the Project " + str);
+                document.getElementById("searchinput").value = "";
+            }
+            else {
+                document.getElementById("searchinput").value = "";
+                alert("The Project " + str + " dosent exist");
+            }
+        }    
+    </script>
+</head >
+
+
+<body>
+    <nav id="nav">
+        <p id="navheader" class="nav_cont"> <a href="index.html">My Test Site</a></p>
+        <aside>
+            <button  style="margin-left:30%;width:4%; height:4%; min-width:30px;" class="searchitem" id="searchbutton" onclick="GoToProject()">Search</button>
+            <input style="width:7%; height:4%;" class="searchitem" id="searchinput" placeholder="Project Name"> </input>
+        </aside>
+    </nav>
+    <article>
+        <h1>My Projects</h1>
+        <div class="projects" id="Vocabulary"> <a href="Vocabulary.html">Vocabulary</a> </div>
+        <div class="projects"> <a href="">Placeholder</a> </div>
+        <div class="projects"> <a href="">Placeholder</a> </div>
+        <div class="projects"> <a href="">Placeholder</a> </div>
+        <div class="projects"> <a href="">Placeholder</a> </div>
+        <div class="projects"> <a href="">Placeholder</a> </div>
+        <div class="projects"> <a href="">Placeholder</a> </div>
+        <div class="projects"> <a href="">Placeholder</a> </div>
+        <div class="projects"> <a href="">Placeholder</a> </div>
+        <div class="projects"> <a href="">Placeholder</a> </div>
+        <div class="projects"> <a href="">Placeholder</a> </div>
+        <div class="projects"> <a href="">Placeholder</a> </div>
+        <div class="projects"> <a href="">Placeholder</a> </div>
+        <div class="projects"> <a href="">Placeholder</a> </div>
+        <div class="projects"> <a href="">Placeholder</a> </div>
+        <div class="projects"> <a href="">Placeholder</a> </div>
+        <div class="projects"> <a href="">Placeholder</a> </div>
+        <div class="projects"> <a href="">Placeholder</a> </div>
+        <div class="projects"> <a href="">Placeholder</a> </div>
+        <div class="projects"> <a href="">Placeholder</a> </div>
+        <div class="projects"> <a href="">Placeholder</a> </div>
+        <div class="projects"> <a href="">Placeholder</a> </div>
+        <div class="projects"> <a href="">Placeholder</a> </div>
+        <div class="projects"> <a href="">Placeholder</a> </div>
+        <div class="projects"> <a href="">Placeholder</a> </div>
+        <div class="projects"> <a href="">Placeholder</a> </div>
+        <div class="projects"> <a href="">Placeholder</a> </div>
+        <div class="projects"> <a href="">Placeholder</a> </div>
+        <div class="projects"> <a href="">Placeholder</a> </div>
+        <div class="projects"> <a href="">Placeholder</a> </div>
+        <div class="projects"> <a href="">Placeholder</a> </div>
+        <div class="projects"> <a href="">Placeholder</a> </div>
+        <div id="Cloud" class="projects"> <a href="">Cloud</a> </div>
+        <div class="projects"> <a href="">Placeholder</a> </div>
+        <div class="projects"> <a href="">Placeholder</a> </div>
+        <div class="projects"> <a href="">Placeholder</a> </div>
+        <div class="projects"> <a href="">Placeholder</a> </div>
+        <div class="projects"> <a href="">Placeholder</a> </div>
+        <div class="projects"> <a href="">Placeholder</a> </div>
+        <div class="projects"> <a href="">Placeholder</a> </div>
+        <div class="projects"> <a href="">Placeholder</a> </div>
+        <div class="projects"> <a href="">Placeholder</a> </div>
+        <div class="projects"> <a href="">Placeholder</a> </div>
+        <div class="projects"> <a href="">Placeholder</a> </div>
+        <div class="projects"> <a href="">Placeholder</a> </div>
+        <div class="projects"> <a href="">Placeholder</a> </div>
+        <div class="projects"> <a href="">Placeholder</a> </div>
+        <div class="projects"> <a href="">Placeholder</a> </div>
+        <div class="projects"> <a href="">Placeholder</a> </div>
+        <div class="projects"> <a href="">Placeholder</a> </div>
+        <div class="projects"> <a href="">Placeholder</a> </div>
+        <div class="projects"> <a href="">Placeholder</a> </div>
+        <div class="projects"> <a href="">Placeholder</a> </div>
+        <div class="projects"> <a href="">Placeholder</a> </div>
+        <div class="projects"> <a href="">Placeholder</a> </div>
+        <div class="projects"> <a href="">Placeholder</a> </div>
+        <div class="projects"> <a href="">Placeholder</a> </div>
+        <div class="projects"> <a href="">Placeholder</a> </div>
+        <div class="projects"> <a href="">Placeholder</a> </div>
+        <div class="projects"> <a href="">Placeholder</a> </div>
+        <div class="projects"> <a href="">Placeholder</a> </div>
+        <div class="projects"> <a href="">Placeholder</a> </div>
+        <div class="projects"> <a href="">Placeholder</a> </div>
+        <div class="projects"> <a href="">Placeholder</a> </div>
+        <div class="projects"> <a href="">Placeholder</a> </div>
+    </article>
+</body>
+
+
+</html>

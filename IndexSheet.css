@@ -1,0 +1,66 @@
+body {
+    background-image: url(Images/hill.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+.nav_cont {
+}
+
+    .nav_cont a {
+        display: block;
+        color: white;
+        text-decoration: none;
+    }
+
+
+        .nav_cont a:hover {
+        }
+
+#navheader {
+    float: left;
+    color: cornflowerblue;
+    font-size: 300%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    margin-left: 43%;
+}
+
+.searchitem {
+    float: left;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+
+h1 {
+    color: snow;
+    font-size: 180%;
+    text-align: center;
+}
+
+.projects {
+    text-align: center;
+    background-color: rgba(255, 99, 71, 0.6);
+    border: 2px solid tomato;
+    padding: 25px;
+    margin: 40px;
+    font-size: 24px;
+    border-radius: 8px 8px;
+}
+
+    .projects a {
+        text-decoration: none;
+        color: snow;
+    }
+
+        .projects a:hover {
+            color: lightgray;
+        }
