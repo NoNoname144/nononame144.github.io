@@ -2,6 +2,8 @@ body {
     background-image: url(Images/hill.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
 }
 
 #nav {
@@ -42,23 +44,33 @@ body {
 
 h1 {
     color: snow;
-    font-size: 180%;
+    font-size: 200%;
     text-align: center;
+}
+.projectdiv {
+    text-align: center;
+    padding: 25px;
+    margin: 40px;
+    
 }
 
 .projects {
     text-align: center;
     background-color: rgba(255, 99, 71, 0.6);
     border: 2px solid tomato;
-    padding: 25px;
-    margin: 40px;
+    padding-left: 40vw;
+    padding-right: 40vw;
+    padding-bottom: 25px;
+    padding-top: 25px;
     font-size: 24px;
     border-radius: 8px 8px;
+    text-decoration: none;
+    color: snow;
 }
 
-    .projects a {
-        text-decoration: none;
-        color: snow;
+    .projects:hover {
+        background-color: rgba(255, 99, 71, 0.7);
+
     }
 
         .projects a:hover {
