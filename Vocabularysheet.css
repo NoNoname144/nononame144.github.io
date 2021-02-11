@@ -1,3 +1,9 @@
+body {
+    background-image: url(Images/hill.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 #nav {
     list-style-type: none;
     align-content: safe center;
@@ -30,11 +36,29 @@
     margin-bottom: 4.5;
     margin-left: 45%;
 }
-
+.header{
+    color:snow;
+    font-size:22px;
+}
 h1 {
     color: snow;
     font-size: 28;
     text-align: center;
 }
 h2{color: snow;}
-li{color: snow; font-size: 18px;}
+ul {
+    background: rgba(255, 99, 71, 0.6);
+    margin: 20px;
+    border-radius: 10px;
+    border-color: tomato;
+    text-wrap: normal;
+    max-width: inherit;
+}
+    ul li {
+        color: snow;
+        font-size: 18px;
+       
+       text-wrap: normal;
+       max-width: inherit;
+        
+    }
