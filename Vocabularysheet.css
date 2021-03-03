@@ -4,74 +4,49 @@ body {
     background-attachment: fixed;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
-.SocialMedia {
+#nav {
     list-style-type: none;
-    position: fixed;
-    right: 1vw;
-    bottom: 0.01vw;
-}
-
-.nav h1 {
-    color: snow;
-    margin-left: 35vw;
-    font-size: 1.0vw;
-}
-
-#Info {
-    height: 100vw;
-    width: 100vw;
-    position: fixed;
-    color: lightslategrey;
-    margin: 1px;
-    top: 0vw;
-}
-
-#Contact {
-    float: right;
-}
-
-ul p {
-    overflow: hidden;
-    max-width: 600px;
-}
-
-.nav {
-    list-style-type: none;
+    align-content: safe center;
+    margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
-    top: 10px;
-    position: sticky;
-    position: -webkit-sticky;
+    background-color: #333333;
+    height: 52px;
 }
 
-    .nav li {
-        margin: 10px;
-        float: left;
+.nav_cont {
+    float: left;
+}
+
+    .nav_cont a {
+        display: block;
+        color: white;
+        text-align: center;
+        text-decoration: none;
     }
 
-        .nav li a {
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
+
+        .nav_cont a:hover {
         }
 
-            /* Change the link color to #111 (black) on hover */
-            .nav li a:hover {
-                background-color: #111;
-            }
-
-body h1 {
+#navheader {
+    color: cornflowerblue;
+    font-size: 35;
+    margin-top: 4.5;
+    margin-bottom: 4.5;
+    margin-left: 45%;
+}
+.header{
+    color:snow;
+    font-size:22px;
+}
+h1 {
     color: snow;
     font-size: 28;
     text-align: center;
 }
-body div {color: snow;}
 h2{color: snow;}
-#list {
+ul {
     background: rgba(255, 99, 71, 0.6);
     margin: 20px;
     border-radius: 10px;
@@ -79,7 +54,7 @@ h2{color: snow;}
     text-wrap: normal;
     max-width: inherit;
 }
-#list li {
+    ul li {
         color: snow;
         font-size: 18px;
        
