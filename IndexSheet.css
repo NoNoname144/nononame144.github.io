@@ -5,43 +5,63 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     
 }
-
-#nav {
+.SocialMedia {
     list-style-type: none;
-    margin: 0;
+    position: fixed;
+    right: 1vw;
+    bottom: 0.01vw;
+}
+#Info{
+    height: 100vw;
+    width: 100vw;
+    position:fixed;
+    color:lightslategrey;
+    margin:1px;
+    top:0vw;
+}
+#Contact {float:right;}
+ul p {overflow:hidden; max-width:600px;}
+.nav {
+    list-style-type: none;
+    
     padding: 0;
     overflow: hidden;
-    background-color: #333333;
+    background-color: #333;
+    top: 10px;
+    position: sticky;
+    position: -webkit-sticky;
 }
 
-.nav_cont {
+.nav li {
+    margin:10px;
+    float: left;
+}
+#header {color: snow;
+         margin-left: 36vw;
+         font-size: 0.5vw;
 }
 
-    .nav_cont a {
+   .nav li a {
         display: block;
         color: white;
+        text-align: center;
+        padding: 14px 16px;
         text-decoration: none;
     }
 
-
-        .nav_cont a:hover {
+        /* Change the link color to #111 (black) on hover */
+       .nav li a:hover {
+            background-color: #111;
         }
-
-#navheader {
-    float: left;
-    color: cornflowerblue;
-    font-size: 300%;
-    margin-top: 0.5%;
-    margin-bottom: 0.5%;
-    margin-left: 43%;
+.active {
+    background-color: tomato;
+    opacity: 0.8;
 }
-
 .searchitem {
     float: left;
     margin-top: 1.5%;
     margin-bottom: 1.5%;
 }
-
 h1 {
     color: snow;
     font-size: 200%;
@@ -53,11 +73,12 @@ h1 {
     margin: 40px;
     
 }
-
 .projects {
     text-align: center;
     background-color: rgba(255, 99, 71, 0.6);
-    border: 2px solid tomato;
+    border-color: tomato;
+    border-style: solid;
+    border-width: 2px;
     padding-left: 40vw;
     padding-right: 40vw;
     padding-bottom: 25px;
@@ -67,12 +88,14 @@ h1 {
     text-decoration: none;
     color: snow;
 }
-
-    .projects:hover {
+.projects:hover {
         background-color: rgba(255, 99, 71, 0.7);
 
-    }
-
-        .projects a:hover {
+}
+.projects a:hover {
             color: lightgray;
-        }
+}
+.sticky {
+      position: sticky;
+      top: 0;
+}

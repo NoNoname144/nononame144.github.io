@@ -11,13 +11,11 @@ body {
     right: 1vw;
     bottom: 0.01vw;
 }
-
-.nav h1 {
+#header {
     color: snow;
-    margin-left: 35vw;
-    font-size: 1.0vw;
+    margin-left: 36vw;
+    font-size: 0.5vw;
 }
-
 #Info {
     height: 100vw;
     width: 100vw;
@@ -50,7 +48,6 @@ ul p {
         margin: 10px;
         float: left;
     }
-
         .nav li a {
             display: block;
             color: white;
@@ -64,26 +61,7 @@ ul p {
                 background-color: #111;
             }
 
-body h1 {
-    color: snow;
-    font-size: 28;
-    text-align: center;
+.active {
+    background-color: tomato;
+    opacity: 0.8;
 }
-body div {color: snow;}
-h2{color: snow;}
-#list {
-    background: rgba(255, 99, 71, 0.6);
-    margin: 20px;
-    border-radius: 10px;
-    border-color: tomato;
-    text-wrap: normal;
-    max-width: inherit;
-}
-#list li {
-        color: snow;
-        font-size: 18px;
-       
-       text-wrap: normal;
-       max-width: inherit;
-        
-    }
